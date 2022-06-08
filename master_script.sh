@@ -25,6 +25,7 @@ sudo mv php.ini /etc/php/7.4/fpm/php.ini
 source install_shopware_3.sh
 
 sudo mv install_shopware_4.sh /var/www/html/shopware
+#replace domain in shopware.conf
 sudo mv shopware.conf /etc/nginx/sites-available/shopware.conf
 
 cd /var/www/html/shopware

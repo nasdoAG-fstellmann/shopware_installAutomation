@@ -16,11 +16,10 @@ sudo chmod +x install_shopware_4.sh
 
 source install_shopware_1.sh
 
-#edit php.ini
-
 source install_shopware_2.sh
 
-#edit php.ini
+sudo mv php.ini /etc/php/7.4/fpm/php.ini
+
 #mysql config
 
 source install_shopware_3.sh
